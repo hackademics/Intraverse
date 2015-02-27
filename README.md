@@ -1,2 +1,7 @@
 # Intraverse
-Intranet for the new millennium 
+
+Mission:  
+Leapfrog current Intranet technologies and build a work theatre to leverage emerging virtual reality interfaces.
+
+
+
