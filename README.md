@@ -32,7 +32,13 @@ BLENDER
 * Create simple objects
 * Import objects into Unity
 
+----------------------------------------------------------------
 
+Next Steps:
+
+* Force Authentication 
+* Import data based on User Identity
+* Present and interact with imported data.
 
 
 
