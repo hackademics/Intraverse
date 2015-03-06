@@ -4,11 +4,15 @@ Mission:
 
 Make an corporate intranet in Unity3d
 
+----------------------------------------------------------------
+
 Required Downloads:
 
 Unity 3D5 : http://unity3d.com/get-unity
+
 Blender   : http://www.blender.org/download/
 
+----------------------------------------------------------------
 
 Completed Tasks:
 
@@ -21,7 +25,7 @@ UNITY 3D
 * Allow User to Jump (Space Bar)
 * Allow User to Boost (Right Mouse Click)
 * Allow User to Instantiate Prefab and throw it, aka Fire (Left Mouse Click)
-* Destroy objects based on time
+* Destroy instantiated objects
 
 BLENDER 
 
