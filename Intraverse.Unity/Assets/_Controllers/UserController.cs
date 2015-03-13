@@ -38,9 +38,18 @@ public class UserController : MonoBehaviour {
 
 	}
 
+	private void Update(){
+		Cursor.visible = false;
+
+
+		if(IsMouseLook())
+			MouseLook();
+	}
+
+
 	protected void FixedUpdate () {
 
-		Cursor.visible = false;
+
 
 		if (!isSpawned) {
 			return;
@@ -61,8 +70,7 @@ public class UserController : MonoBehaviour {
 		if(IsBoosting())
 			Boost();
 
-		if(IsMouseLook())
-			MouseLook();
+
 
 
 		if(Input.GetKey(KeyCode.F)){
@@ -73,9 +81,10 @@ public class UserController : MonoBehaviour {
 
 	}
 
-	private void Spawn(){
+	public void Spawn(){
 		this.transform.position = new Vector3 (0, 5, 0);
 		isSpawned = true;
+
 	}
 
 	private void Move(){
@@ -162,6 +171,18 @@ public class UserController : MonoBehaviour {
 
 		return transform.position.y <= -1.0f;
 	}
+
+
+	void OnCollisionEnter(Collision c) {
+
+		if (c.collider.gameObject.name == "turret") {
+			isSpawned = false;
+			Spawn ();
+
+		}
+	}
+
+
 
 
 }
