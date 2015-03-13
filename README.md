@@ -1,5 +1,20 @@
 # Intraverse
 
+OK.. this currently has nothing to do with intranets.  I'm still learning the core dynamics of Unity3D, so it's a game.
+
+Game Play:  
+
+Shoot Gold items twice, then pick them up.
+You are being chased by Mr. Grim.  Get touched by him and lose health.
+You can shoot Mr. Grim and get points, but he re-pawns with more speed.
+
+Couple things:
+
+Not using a Terrain object.
+Importing simple Blender objects and then replicating them.
+
+----------------------------------------------------------------
+
 Mission:
 
 Make an corporate intranet in Unity3d
